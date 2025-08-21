@@ -1,4 +1,4 @@
-package org.example;
+package org.example.pizza.type;
 
 public class NYStylePepperoniPizza extends Pizza {
 }

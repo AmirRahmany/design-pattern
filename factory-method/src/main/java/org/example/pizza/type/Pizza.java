@@ -1,10 +1,9 @@
-package org.example;
+package org.example.pizza.type;
 
-public class Pizza {
+public abstract class Pizza {
     public void prepare() {
         System.out.println("prepare pizza");
     }
-
     public void bake() {
         System.out.println("bake pizza");
     }
