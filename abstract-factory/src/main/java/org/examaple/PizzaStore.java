@@ -2,7 +2,7 @@ package org.examaple;
 
 public abstract class PizzaStore {
 
-    public Pizza orderPizza(String type) {
+    public Pizza orderPizza(PizzaType type) {
         Pizza pizza = createPizza(type);
 
         pizza.prepare();
@@ -12,5 +12,16 @@ public abstract class PizzaStore {
         return pizza;
     }
 
-    protected abstract Pizza createPizza(String type);
+    private Pizza createPizza(PizzaType type) {
+        final var ingredientFactory = getIngredientFactory();
+
+        return switch (type) {
+            case CHEESE -> new CheesePizza(ingredientFactory);
+            case VEGGIE -> new VeggiePizza(ingredientFactory);
+            case CLAM -> new ClamPizza(ingredientFactory);
+            case PEPPERONI -> new PepperoniPizza(ingredientFactory);
+        };
+    }
+
+    protected abstract PizzaIngredientFactory getIngredientFactory();
 }
