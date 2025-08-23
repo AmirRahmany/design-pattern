@@ -1,4 +1,4 @@
-package org.example;
+package org.example.version1;
 
 public class WindowBlind {
 
