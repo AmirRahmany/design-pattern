@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StockMarketData date="2024-01-15" time="16:00:00 EST">
+    <MarketIndices>
+        <Index>
+            <Symbol>DJIA</Symbol>
+            <Name>Dow Jones Industrial Average</Name>
+            <LastPrice>37592.98</LastPrice>
+            <Change>+138.01</Change>
+            <ChangePercent>+0.37%</ChangePercent>
+            <Volume>325000000</Volume>
+        </Index>
+        <Index>
+            <Symbol>SPX</Symbol>
+            <Name>&amp; 500 Index</Name>
+            <LastPrice>4783.45</LastPrice>
+            <Change>+25.32</Change>
+            <ChangePercent>+0.53%</ChangePercent>
+            <Volume>2850000000</Volume>
+        </Index>
+        <Index>
+            <Symbol>NASDAQ</Symbol>
+            <Name>NASDAQ Composite</Name>
+            <LastPrice>14972.76</LastPrice>
+            <Change>+85.23</Change>
+            <ChangePercent>+0.57%</ChangePercent>
+            <Volume>4200000000</Volume>
+        </Index>
+    </MarketIndices>
+
+    <Stocks>
+        <Stock>
+            <Symbol>AAPL</Symbol>
+            <CompanyName>Apple Inc.</CompanyName>
+            <Sector>Technology</Sector>
+            <LastPrice>185.92</LastPrice>
+            <Change>-1.05</Change>
+            <ChangePercent>-0.56%</ChangePercent>
+            <Volume>48592000</Volume>
+            <MarketCap>2.91T</MarketCap>
+            <PERatio>31.5</PERatio>
+            <DividendYield>0.52%</DividendYield>
+            <DayRange>
+                <Low>184.50</Low>
+                <High>187.25</High>
+            </DayRange>
+            <YearRange>
+                <Low>124.17</Low>
+                <High>199.62</High>
+            </YearRange>
+        </Stock>
+
+        <Stock>
+            <Symbol>MSFT</Symbol>
+            <CompanyName>Microsoft Corporation</CompanyName>
+            <Sector>Technology</Sector>
+            <LastPrice>374.58</LastPrice>
+            <Change>+2.45</Change>
+            <ChangePercent>+0.66%</ChangePercent>
+            <Volume>28563100</Volume>
+            <MarketCap>2.78T</MarketCap>
+            <PERatio>35.8</PERatio>
+            <DividendYield>0.75%</DividendYield>
+            <DayRange>
+                <Low>371.20</Low>
+                <High>376.40</High>
+            </DayRange>
+            <YearRange>
+                <Low>245.18</Low>
+                <High>384.30</High>
+            </YearRange>
+        </Stock>
+
+        <Stock>
+            <Symbol>TSLA</Symbol>
+            <CompanyName>Tesla Inc.</CompanyName>
+            <Sector>Consumer Cyclical</Sector>
+            <LastPrice>228.73</LastPrice>
+            <Change>+8.92</Change>
+            <ChangePercent>+4.06%</ChangePercent>
+            <Volume>112845000</Volume>
+            <MarketCap>728.4B</MarketCap>
+            <PERatio>76.2</PERatio>
+            <DividendYield>0.00%</DividendYield>
+            <DayRange>
+                <Low>220.15</Low>
+                <High>230.80</High>
+            </DayRange>
+            <YearRange>
+                <Low>152.37</Low>
+                <High>299.29</High>
+            </YearRange>
+        </Stock>
+
+        <Stock>
+            <Symbol>JPM</Symbol>
+            <CompanyName>JPMorgan Chase &amp; Co.</CompanyName>
+            <Sector>Financial Services</Sector>
+            <LastPrice>172.45</LastPrice>
+            <Change>+0.85</Change>
+            <ChangePercent>+0.50%</ChangePercent>
+            <Volume>15892300</Volume>
+            <MarketCap>502.3B</MarketCap>
+            <PERatio>10.2</PERatio>
+            <DividendYield>2.35%</DividendYield>
+            <DayRange>
+                <Low>170.80</Low>
+                <High>173.20</High>
+            </DayRange>
+            <YearRange>
+                <Low>135.19</Low>
+                <High>176.28</High>
+            </YearRange>
+        </Stock>
+    </Stocks>
+
+    <MarketSummary>
+        <TotalVolume>7850000000</TotalVolume>
+        <Advancing>2450</Advancing>
+        <Declining>1560</Declining>
+        <Unchanged>290</Unchanged>
+        <NewHighs>85</NewHighs>
+        <NewLows>42</NewLows>
+        <MarketStatus>CLOSED</MarketStatus>
+    </MarketSummary>
+</StockMarketData>
